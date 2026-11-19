@@ -14,6 +14,12 @@ const projectItems = [
       "Built a Go-based e-commerce platform using Kafka, PostgreSQL, Redis, JWT authentication, and concurrent workers to handle incoming traffic efficiently for customers globally.",
     image: "/images/Ecommerce.png",
   },
+  {
+    title: "Facial Expression Recognition",
+    description:
+      "Developed a CNN-based model using OpenCV to recognize seven human emotions from real-time video streams using the FER-2013 dataset.",
+    image: "/images/FER.png",
+  },
 ];
 
 const ProjectSection = () => {
@@ -43,7 +49,7 @@ const ProjectSection = () => {
                     fill
                     priority={index === 0}
                     sizes="(max-width: 640px) 100vw, 40vw"
-                    className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                    className="object-fill object-center transition-transform duration-500 group-hover:scale-105"
                   />
 
                   {/* Image Gradient Overlay */}

@@ -24,7 +24,7 @@ const Resume = () => {
           <div className="relative z-10">
             {/* Section Label */}
             <div className="mb-5 flex items-center gap-3">
-              <span className="font-mono text-[10px] font-semibold uppercase tracking-[0.25em] text-purple-400 transition-colors duration-300 group-hover:text-blue-400">
+              <span className="font-mono text-[20px] font-semibold uppercase tracking-[0.25em] text-purple-400 transition-colors duration-300 group-hover:text-blue-400">
                 Resume
               </span>
             </div>

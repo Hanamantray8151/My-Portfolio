@@ -14,7 +14,7 @@ const HeroSection = () => {
             <div className="pointer-events-none absolute -inset-12 md:-inset-24 rounded-full bg-purple-500/40 blur-3xl opacity-50"></div>
             <div>
               <Image
-                src="/images/avatar.png"
+                src="/images/Profile.jpeg"
                 alt="avatar image"
                 width={200}
                 height={200}
@@ -33,8 +33,9 @@ const HeroSection = () => {
               Building distributed systems at scale — Engineering @ SAP Labs
               India
             </p>
-            <p className="text-sm md:base font-normal tracking-tight leading-[1.1]">
-              Specialising in Golang · Microservices · Apache Kafka · Git · AWS,
+            <p className="text-sm md:base font-normal tracking-normal leading-[1.1]">
+              Specialising in Golang · NodeJS · ReactJS · Microservices · Apache
+              Kafka · Git · AWS
             </p>
           </div>
         </div>
@@ -52,20 +53,13 @@ const HeroSection = () => {
               loop={1}
             />
           </h2>
-          <p>
-            Currently, I&apos;m a Software Engineer at{" "}
-            <span className="inline-flex items-center gap-1 text-[#1877f2] font-medium">
-              SAP
-            </span>
-          </p>
           <p className="mt-6 text-white/70 leading-7">
             {" "}
-            Software Developer with 3+ years of experience building the web
-            applications modern JavaScript frameworks. Strong foundation in
-            full-stack development, REST APIs, responsive UI design, and
-            performance optimization. Experienced in collaborating with
-            cross-functional teams, handling global escalations, and delivering
-            maintainable, user-centric solutions in enterprise environments.
+            Software Engineer at SAP Labs India with 4+ years of experience in
+            building scalable full-stack and backend systems using Go, Node.js,
+            React.js, Typescript and AWS. Skilled in microservices, distributed
+            systems, and performance optimization, with a focus on building
+            reliable applications and solving real-world technical problems.
           </p>
         </div>
       </div>
